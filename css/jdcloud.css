@@ -50,8 +50,17 @@ background-size: cover;
     width: px;
     background-color: rgba(0, 0, 0, .5);
     padding: 0 10px;
+    position: relative;
     
 
+}
+
+.buttom-one{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 6px;
+ 
 }
 .chines{
     color: white;
@@ -1029,7 +1038,7 @@ hr{
     padding: 4px 10px;
 }
 .di{
-    width: 1440px;
+    width: 100%;
     height: 89px;
     background-color: #212330;
     float: left;
@@ -1074,11 +1083,12 @@ hr{
 .di-p:hover {
     color: #3171ff;}
 .di-two{
-    width: 1440px;
+    width: 100%;
     height: 360px;
     background-color: #212330;
     float: left;
     border-bottom: 1s solid white;
+    margin: 0 auto;
 
 
 }
